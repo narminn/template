@@ -1,0 +1,154 @@
+.clear{
+    clear: both;
+}
+body{
+    margin: 0px;
+}
+.widthFull{
+    width: 100%;
+}
+#header{
+    height: 50px;
+    background: lightgray;
+}
+.icons{
+    width: 300px;
+    display: inline-block;
+}
+.square{
+    width: 10px;
+    height: 10px;
+    background: darkgray;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    margin-right: 5px;
+    margin-top: 6px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.circle{
+    width: 2px;
+    height: 2px;
+    background: darkgray;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 30px;
+}
+.names{
+    width: 600px;
+    display: inline-block;
+}
+nav{
+    color: black;
+    float: left;
+}
+nav li{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+#navigation{
+    height: 40px;
+    background: #8a9696;
+}
+.selection{
+    width: 400px;
+    display: inline-block;
+}
+.selection nav{
+    color: black;
+    float: left;
+}
+.selection nav li{
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+    border-left: 1px solid darkgray;
+}
+#slider{
+    height: 300px ;
+    
+}
+.leftSlide{
+    width: 65%;
+    background: #707c7c;
+    height: 300px;
+    float: left;
+    
+}
+.artistLeft{
+ color: lightgray;
+ padding: 50px 50px 0px 50px;
+ font-size: 30px;
+
+}
+.albumLeft{
+    color: white;
+    padding: 0px 50px 50px 50px;
+    font-size: 45px;
+}
+
+.rightSlide{
+    width: 35%;
+    background: lightgrey;
+    height: 300px;
+    float: right;
+
+}
+.artistRight{
+    color: #8a9696;
+    padding: 50px 50px 0px 50px;
+    font-size: 30px;
+   }
+.albumRight{
+    color:darkgray;
+    padding: 0px 50px 50px 50px;
+    font-size: 45px;
+   }
+#mainContent{
+    height: 500px;
+    background: #8a9696 ;
+}
+.contentLeft{
+    width:35%;
+    height: 400px;
+    float: left;
+}
+
+.contentLeft h3{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.nameAlbum{
+    width: 120px;
+    height: 130px;
+    background: darkgray;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    margin-right: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.contentCenter{
+    width:35%;
+    height: 400px;
+ 
+    float: left;
+}
+.contentRight{
+    width:30%;
+    height: 400px;
+    
+    float: left;
+}
+.contentCenter .contentRight h3{
+    margin-top: 20px;
+    
+}
